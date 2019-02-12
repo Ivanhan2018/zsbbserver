@@ -1,0 +1,100 @@
+#ifndef __um_global_macro_H__
+#define __um_global_macro_H__
+
+//WebServer与WebClient之间的通信信令
+enum command
+{
+	//检测账户是否存在
+	CM_CHECK_USER		=	0x006000,
+	//账户注册
+	CM_REGUSER			=	0x006010,
+	//账户WEB登陆
+	CM_USER_LOING		=	0x006020,
+	//更改账户密码
+	CM_MODIFY_PASSWORD	=	0x006030,
+	//GO点充值
+	CM_ADDMONEY			=	0x006040,
+	//获取战报
+	CM_GETWARNEWS		=	0x006050,
+	//更改账户Email信息
+	CM_UPDATEEMAIL		=	0x006060,
+	//获取答案
+	CM_GETANSWER		=	0x006070,
+	//扣值
+	CM_SUBMONEY			=	0x006080,
+	//查询GO点数
+	CM_GETMONEY			=	0x006090,
+
+	//回复猎获取答案
+	CM_REP_GETANSWER	=	0x008810,
+	//回复查询GO点数
+	CM_REP_GETMONEY		=	0x008820,
+
+	//个人排行
+	CM_PLAYERLIST		=	0x009901,
+	//公会排行
+	CM_GONGHUILIST		=	0x009902,
+	//查询积分
+	CM_GETSCORE			=	0x009903,
+	//扣除积分
+	CM_SUBSCORE			=	0x009904,
+	//回复查询积分
+	CM_REP_GETSCORE		=	0x009905,
+	//修改密码（不验证）
+	CM_MODIFY_PASSWORD_NO=	0x009906,
+	//查询Email
+	CM_GETEMAIL			=	0x009907,
+	//GM账户列表
+	CM_GMUSERLIST		=   0x009908,
+	//更改账户附加信息
+	CM_UPDATEUSEREXTINFO=	0x009909,
+	//查询用账户附加信息
+	CM_GETUSEREXTINFO	=	0x009910,
+	//更改密码,第三种方式
+	CM_MODIFY_PASSWORD_EXT=	0x009911,
+	//获取玩家任务表
+	CM_GETPLAYERTASK	=	0x009912,
+	//回复玩家任务表（与dataserver）
+	CM_BACKWRITETASK	=	0x009913,
+	
+	//对应存储过程sp_pgetCZlist
+	CM_ADDMONEYTOTAL	=	0x009914,
+	//对应存储过程sp_pgetCZ2list
+	CM_ADDMONEYTOTALEX	=	0x009915,
+	//对应存储过程sp_pgetCZdetaillist
+	CM_ADDMONEYTOTALTHIRD=	0x009916,
+	//对应存储过程sp_pgetplayerlist
+	CM_PLAYERLISTTOTAL	=	0x009917,
+	//对应存储过程sp_pgetuserlist
+	CM_USERLISTTOTAL	=	0x009918,
+	//对应存储过程sp_pgetuserbypid
+	CM_USERBYPIDTOTAL	=	0x009919,
+	//ExecSQL,client直接传SQL语句
+	CM_GETRECORDCOUNT	=	0x009920,
+
+	CM_GETLOGINFO = 0x009921,
+	CM_RPSLOGINFO = 0x009922,
+	CM_GETLOGONLINE = 0x009923,
+	CM_RPSLOGONLINE = 0x009924,
+	CM_GETLOGPERF = 0x009925,
+	CM_RPSLOGPERF = 0x009926,
+
+	//对应存储过程sp_pgetuserlist3
+	CM_USERLISTTOTAL3	=	0x009927,
+	CM_GETRESULTBYPROC = 0x009928,
+	CM_RSPGETRESULTBYPROC = 0x009929,
+	CM_PLAYERFRIENDLIST = 0x00992A,
+
+	CM_GETLOGONLINEEX = 0x00992B,
+	CM_RPSLOGONLINEEX = 0x00992C,
+	CM_GETGODIANLOG = 0x00992D,
+	CM_RPSGODIANLOG = 0x00992E,
+
+	CM_GETHEROLIST = 0x00992F,
+	CM_RPSGETHEROLIST = 0x009930
+};
+
+
+
+
+#endif

@@ -1,0 +1,45 @@
+LIBRARY	um_web_client
+EXPORTS
+    ; Explicit exports can go here
+
+	StartWebClient
+	StopWebClient
+	NetState
+	CheckUserName
+	
+	RegUser
+	UserLogin
+	UpdatePassword
+	UpdatePasswordNoCheck
+	UpdatePasswordExt
+	AddMoney
+	SubGoDian
+	GetGoDian
+	SubScore
+	GetScore
+
+	GetAnswer
+	GetEmail
+	UpdateEmail
+	
+	GetPlayerListCs
+	GetGongHuiListCs
+	
+	GetGmUserList
+	DeleteBuf
+	
+	GetUserExtInfo
+	UpdateUserExtInfo
+	
+	DataTotal
+	GetUserByIDTotal
+	GetRecordCount
+	
+	GetLogInfo
+	GetLogOnline
+	GetLogPerf
+	GetResultByProc
+	
+	GetLogOnlineEx
+	GetGodianLog
+	

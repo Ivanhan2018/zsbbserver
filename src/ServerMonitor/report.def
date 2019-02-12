@@ -1,0 +1,9 @@
+LIBRARY   REPORT
+
+EXPORTS
+    ; Explicit exports can go here
+
+	init
+	fini
+	log
+		

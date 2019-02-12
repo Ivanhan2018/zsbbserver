@@ -1,0 +1,6 @@
+LIBRARY   EXPORT_LOG_TOOL_DLLD
+
+EXPORTS
+    ; Explicit exports can go here
+
+	log_download	

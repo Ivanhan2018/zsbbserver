@@ -1,0 +1,19 @@
+LIBRARY   SOCKETSVC
+
+EXPORTS
+    ; Explicit exports can go here
+
+	init
+	fini
+	asynch_write
+	event_notify
+	broadcast
+	broadcast_ex
+	set_timer
+	set_timer_ms
+	cancel_timer
+	get_error_message
+	report
+	online
+	log_game_report
+	

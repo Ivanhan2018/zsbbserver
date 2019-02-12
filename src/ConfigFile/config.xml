@@ -1,0 +1,10 @@
+<?xml version ="1.0"?>
+<config>
+	<managersvc listen_port="512" game_id="1" group_id="1" log_game_address="127.0.0.1" log_game_port="3000"></managersvc>
+	<dbgatewaysvc listen_port="8899" thread_pool="50" db_username="sa" db_password="sa" db_dsn="gsgamedb"></dbgatewaysvc>
+	<agentsvc listen_port="81" thread_pool="5" group_name="TEST" role_id="4001" manager_address="127.0.0.1" manager_port="512" login_address="127.0.0.1" login_port="80" agent_url="127.0.0.1" log_address="127.0.0.1" log_port="3000"></agentsvc>
+	<loginsvc listen_port="80" thread_pool="10" version="20090624" db_username="sa" db_password="sa" db_dsn="centerdatabase"></loginsvc>
+	<logsvc listen_port="3000" thread_pool="5" db_username="sa" db_password="sa" db_dsn="LocalServer"></logsvc>
+	<logsvc_game listen_port="3000" thread_pool="5"></logsvc_game>
+</config>
+
