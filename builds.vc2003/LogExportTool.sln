@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 8.00
+# Visual Studio 2003
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LogExportTool", "LogExportTool.vcproj", "{53F5BC44-DC9D-4050-B502-4FE10AD6CE71}"
+	ProjectSection(ProjectDependencies) = postProject
+		{361E8CE4-D44D-4DE9-9476-A5FECC70E8B4} = {361E8CE4-D44D-4DE9-9476-A5FECC70E8B4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "export_log_tool_dll", "D:\ZSBB\builds\export_log_tool_dll.vcproj", "{361E8CE4-D44D-4DE9-9476-A5FECC70E8B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53F5BC44-DC9D-4050-B502-4FE10AD6CE71}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53F5BC44-DC9D-4050-B502-4FE10AD6CE71}.Debug|Win32.Build.0 = Debug|Win32
+		{53F5BC44-DC9D-4050-B502-4FE10AD6CE71}.Release|Win32.ActiveCfg = Release|Win32
+		{53F5BC44-DC9D-4050-B502-4FE10AD6CE71}.Release|Win32.Build.0 = Release|Win32
+		{361E8CE4-D44D-4DE9-9476-A5FECC70E8B4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{361E8CE4-D44D-4DE9-9476-A5FECC70E8B4}.Debug|Win32.Build.0 = Debug|Win32
+		{361E8CE4-D44D-4DE9-9476-A5FECC70E8B4}.Release|Win32.ActiveCfg = Release|Win32
+		{361E8CE4-D44D-4DE9-9476-A5FECC70E8B4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

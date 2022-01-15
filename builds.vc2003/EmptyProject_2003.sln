@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 8.00
+# Visual Studio 2003
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "EmptyProject_2003.vcproj", "{9C04CC2D-C188-4443-A185-CB0BCA6ED98D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		DebugForInnerTest|Win32 = DebugForInnerTest|Win32
+		Profile|Win32 = Profile|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C04CC2D-C188-4443-A185-CB0BCA6ED98D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9C04CC2D-C188-4443-A185-CB0BCA6ED98D}.Debug|Win32.Build.0 = Debug|Win32
+		{9C04CC2D-C188-4443-A185-CB0BCA6ED98D}.DebugForInnerTest|Win32.ActiveCfg = DebugForInnerTest|Win32
+		{9C04CC2D-C188-4443-A185-CB0BCA6ED98D}.DebugForInnerTest|Win32.Build.0 = DebugForInnerTest|Win32
+		{9C04CC2D-C188-4443-A185-CB0BCA6ED98D}.Profile|Win32.ActiveCfg = Profile|Win32
+		{9C04CC2D-C188-4443-A185-CB0BCA6ED98D}.Profile|Win32.Build.0 = Profile|Win32
+		{9C04CC2D-C188-4443-A185-CB0BCA6ED98D}.Release|Win32.ActiveCfg = Release|Win32
+		{9C04CC2D-C188-4443-A185-CB0BCA6ED98D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
